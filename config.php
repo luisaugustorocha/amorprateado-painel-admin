@@ -3,13 +3,13 @@ require 'environment.php';
 
 $config = array();
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://localhost/amorprateado/painel-admin");
+	define("BASE_URL", "http://localhost/amorprateado/painel-admin/");
 	$config['dbname'] = 'amorprateado';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = 'root';
 } else {
-	define("BASE_URL", "http://localhost/amorprateado/painel-admin");
+	define("BASE_URL", "http://localhost/amorprateado/painel-admin/");
 	$config['dbname'] = 'amorprateado';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
